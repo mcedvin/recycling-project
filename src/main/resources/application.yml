@@ -1,9 +1,9 @@
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/test
-    username:
-    password:
+    url: jdbc:mysql://mysql.dsv.su.se:3306/siba8346?serverTimezone=UTC
+    username: siba8346
+    password: wiefohneiB2c
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
